@@ -1,6 +1,7 @@
 {
   "name": "tiktok-clone-web",
   "version": "0.1.0",
+  "license": "",
   "private": true,
   "dependencies": {
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.1",

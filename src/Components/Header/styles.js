@@ -14,7 +14,12 @@ const Navbar = styled.nav`
   bottom: 0;
   left: 0;
   background: #fff;
-  border-bottom: 1px solid #ccc;
+  border-bottom: 1px solid #16182333;
+
+  @media screen and (max-width: 991px) {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
 `;
 
 Navbar.Container = styled.header`
@@ -25,8 +30,8 @@ Navbar.Container = styled.header`
   height: 100%;
   width: 100%;
   max-width: 1100px;
-  padding: 0 20px 0 12px;
-  background: orange;
+  padding: 0 20px 0 20px;
+
 `;
 
 
