@@ -65,7 +65,7 @@ ActionBtn.Container = styled.div`
 
   &:hover {
     .tooltip {
-      transition-delay: .4s;
+      transition-delay: .2s;
       transform: translateY(0%);
       visibility: visible;
       opacity: 1;

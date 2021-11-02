@@ -14,6 +14,7 @@ const User = styled.div`
 
   &:not(:hover) {
     .dropdown {
+      transition: all .5s ease;
       transition-delay: .3s;
     }
   }
@@ -37,7 +38,7 @@ User.Button = styled.button`
 
 User.Tooltip = styled.div`
   position: absolute;
-  top: 60px;
+  top: 58px;
   left: -150px;
   flex-direction: column;
   visibility: hidden;
@@ -45,6 +46,7 @@ User.Tooltip = styled.div`
   padding: 8px 0;
   box-shadow: 0 -4px 32px rgb(0 0 0 / 10%);
   border-radius: 8px;
+  background: #fff;
 
   &::after {
     content: '';
@@ -53,7 +55,7 @@ User.Tooltip = styled.div`
     background: #fff;
     position: absolute;
     right: 28px;
-    top: -7px;
+    top: -3px;
     transform: rotate(45deg);
     box-shadow: 0 -4px 32px rgb(0 0 0 / 10%);
   }
